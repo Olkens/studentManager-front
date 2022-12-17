@@ -1,9 +1,11 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import HomeContent from '../components/HomeContent.vue'
+import LoginForm from '@/components/LoginForm.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <HomeContent />
+    <LoginForm />
   </main>
 </template>
