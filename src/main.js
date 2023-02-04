@@ -8,7 +8,11 @@ import axios from 'axios'
 
 import './assets/main.css'
 
-// axios.defaults.baseURL = 'localhost:8080'
+axios.defaults.baseURL = 'https://localhost:8080/api/'
+
+// const instance = axios.create({
+//     baseURL: 'https://localhost:8080/api/',
+//   });
 
 const app = createApp(App)
 

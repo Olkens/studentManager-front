@@ -1,11 +1,8 @@
 <script setup>
-import HomeContent from '../components/HomeContent.vue'
-import LoginForm from '@/components/LoginForm.vue'
 </script>
 
 <template>
   <main>
-    <HomeContent />
-    <LoginForm />
+    <h1>Home after Login</h1>
   </main>
 </template>
