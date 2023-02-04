@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <div class="flex-col flex">
         <form @submit.prevent="login()">
-            <div class="container">
-                <label>Username : </label>
-                <input type="text" placeholder="Enter Username" name="username" required v-model="username">
+            <div class="flex-col flex">
+                <label class=" text-base ">Username : </label>
+                <input class="rounded" type="text" placeholder="Enter Username" name="username" required v-model="username">
                 <label>Password : </label>
                 <input type="password" placeholder="Enter Password" name="password" required v-model="password">
                 <button type="submit" @click.prevent="login()">Login</button>
