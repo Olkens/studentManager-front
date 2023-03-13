@@ -5,7 +5,10 @@ import LoginForm from '@/components/LoginForm/LoginForm.vue'
 
 <template>
   <main>
-    <HomeContent />
-    <LoginForm />
+  <div class="flex justify-around">
+ 
+    <HomeContent class="basis-1/2" />
+    <LoginForm class="basis-1/4"/>
+  </div>
   </main>
 </template>
